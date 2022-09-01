@@ -20,7 +20,7 @@ main > h1{
     font-size: 2rem;
     text-align: center;
     line-height: 3em;
-    color: #e65e46;
+    color: rgb(229,49,112);
     font-weight: bold;
 }
 
@@ -85,4 +85,5 @@ div.item > div span{
 
 div.item > div a{
     text-decoration: none;
+    color: rgb(64,122,164);
 }
