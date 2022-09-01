@@ -51,8 +51,7 @@ main > p{
     float: left;
     color: white;
     background-color: rgb(15 14 23);
-    border: 3px solid lightgrey;
-    border-radius: 5px;
+    box-shadow: 4px 4px 4px black;
 }
 
 
