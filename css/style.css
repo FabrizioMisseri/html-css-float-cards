@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.claerfix::after{
+.clearfix::after{
     display: table;
     content: "";
     clear: both;
@@ -41,6 +41,8 @@ main p{
     width: 100%;
 }
 
+
+/* CONTENUTO RIGA */
 .section{
     width: 100%;
 }
@@ -52,10 +54,18 @@ main p{
     float: left;
     border: 1px solid black;
     /* debug */
-    height: 150px;
+    height: 5em;
     background-color: green;
 }
 
 .item:last-child{
     margin-right: 0;
+}
+
+
+/* CONTENUTO ITEM */
+
+div.item img{
+    float: left;
+    max-height: 100%;
 }
