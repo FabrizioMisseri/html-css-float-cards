@@ -1,10 +1,10 @@
 /* RESET GENERALE */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-size: 100%;
 }
 
 .clearfix::after{
@@ -14,9 +14,10 @@
 }
 
 
-/* MAIN TOP */
 
+/* MAIN TOP */
 main > h1{
+    font-size: 2rem;
     text-align: center;
     line-height: 3em;
     color: #e65e46;
@@ -34,8 +35,9 @@ main > p{
     text-align: center;
 }
 
-/* MAIN BOTTOM */
 
+
+/* MAIN BOTTOM */
 .container{
 }
 
@@ -51,7 +53,6 @@ main > p{
     margin-top: 1em;
     float: left;
     color: white;
-    height: 5em;
     background-color: rgb(15 14 23);
     border: 3px solid lightgrey;
     border-radius: 5px;
@@ -67,14 +68,25 @@ main > p{
 
 div.item img{
     float: left;
-    max-height: 100%;
-    margin-right: 0.6em;
+    width: 80px;
+    margin-right: 0.3em;
 }
 
-div.item p , div.item h3{
+div.item > div{
+    float: left;
+    padding: 0,2em;
+}
+
+div.item > div p{
     margin: 0.2em;
+    font-size: 0.8rem;
 }
 
-div.item a{
+div.item > div h3{
+    margin: 0.2em;
+    font-size: 1.1rem;
+}
+
+div.item > div a{
     text-decoration: none;
 }
