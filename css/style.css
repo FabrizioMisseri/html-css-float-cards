@@ -52,11 +52,11 @@ main p{
     margin-right: 1.5em;
     margin-top: 1em;
     float: left;
-    border: 1px solid black;
-    /* debug */
+    color: white;
     height: 5em;
-    background-color: green;
+    background-color: rgb(15 14 23);
 }
+
 
 .item:last-child{
     margin-right: 0;
@@ -68,4 +68,13 @@ main p{
 div.item img{
     float: left;
     max-height: 100%;
+    margin-right: 0.6em;
+}
+
+div.item p , div.item h3{
+    margin: 0.2em;
+}
+
+div.item a{
+    text-decoration: none;
 }
