@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after{
@@ -15,30 +16,27 @@
 
 /* MAIN TOP */
 
-main h1{
+main > h1{
     text-align: center;
     line-height: 3em;
+    color: #e65e46;
+    font-weight: bold;
 }
 
 
 main{
     width: 70%;
     margin: 0 auto;
-    /* debug */
-    background-color: pink;
 }
 
-main p{
+main > p{
     margin-bottom: 1em;
+    text-align: center;
 }
 
 /* MAIN BOTTOM */
 
 .container{
-    /* debug */
-    background-color: red;
-    height: 400px;
-    width: 100%;
 }
 
 
@@ -55,6 +53,8 @@ main p{
     color: white;
     height: 5em;
     background-color: rgb(15 14 23);
+    border: 3px solid lightgrey;
+    border-radius: 5px;
 }
 
 
