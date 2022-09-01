@@ -17,27 +17,45 @@
 
 main h1{
     text-align: center;
+    line-height: 3em;
 }
+
 
 main{
     width: 70%;
-    margin: 5% auto;
+    margin: 0 auto;
     /* debug */
     background-color: pink;
-    height: 300px;
 }
 
+main p{
+    margin-bottom: 1em;
+}
 
 /* MAIN BOTTOM */
 
 .container{
-
+    /* debug */
+    background-color: red;
+    height: 400px;
+    width: 100%;
 }
 
 .section{
-
+    width: 100%;
 }
 
 .item{
-    
+    width: calc(100% / 3 - 1em);
+    margin-right: 1.5em;
+    margin-top: 1em;
+    float: left;
+    border: 1px solid black;
+    /* debug */
+    height: 150px;
+    background-color: green;
+}
+
+.item:last-child{
+    margin-right: 0;
 }
