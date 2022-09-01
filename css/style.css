@@ -79,12 +79,12 @@ div.item > div{
 
 div.item > div p{
     margin: 0.2em;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
-div.item > div h3{
-    margin: 0.2em;
-    font-size: 1.1rem;
+div.item > div span{
+    display: inline-block;
+    margin: 0.3em;
 }
 
 div.item > div a{
